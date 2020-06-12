@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">NTD</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="slide_titile_1">Xây dựng thương hiệu\n hiệu quả</string>
+    <string name="slide_titile_4">Hệ thống chủ động tìm &amp;\n Gợi ý ứng viên</string>
+    <string name="slide_titile_2">Chat trực tiếp với\n Ứng viên</string>
+    <string name="slide_titile_3">Tự động hóa quy trình\n quản lý ứng viên</string>
+    <string name="slide_titile_5">Chủ động tạo tài khoản và\n phân quyền quản lý</string>
+    <string name="tentaikhoan">Tên tài khoản</string>
+    <string name="matkhautruycap">Mật khẩu truy cập</string>
+    <string name="ghinhotaikhoan">Ghi nhớ mật khẩu đăng nhập.</string>
+    <string name="dongy">Đồng ý</string>
+    <string name="card_view_file_tip">(Nhấn để xem CV/Chứng chỉ)</string>
+    <string name="login_display_user_info" formatted="false">%s, %s tuổi, %s</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="total_point" formatted="false">%s phù hợp:\u0020</string>
+    <string name="home_card_lvl" formatted="false">%s tại %s</string>
+    <string name="preview_profile_no_current_job_html">Chưa có kinh nghiệm làm việc</string>
+    <string name="preview_profile_current_job_html2" formatted="false"><![CDATA[từng làm <b>%s</b><br>tại <b>%s</b>]]></string>
+    <string name="preview_profile_current_job_html" formatted="false"><![CDATA[đang làm <b>%s</b><br>tại <b>%s</b>]]></string>
+    <string name="caidat">Cài đặt</string>
+    <string name="ungvienmoiphongvan">Danh sách ứng viên đã chọn</string>
+    <string name="ungviendaluu">Danh sách ứng viên đã lưu</string>
+    <string name="ungviendaapply">Danh sách ứng viên đã ứng tuyển</string>
+    <string name="ungviendaluucv2">DS ứng viên yêu thích công việc</string>
+    <string name="ungviendamoichat">Danh sách ứng viên đã mời chat</string>
+    <string name="ungvienquyetdinhsau">Danh sách ứng viên quyết định sau</string>
+    <string name="dsungvienboqua">Danh sách ứng viên đã bỏ qua</string>
+    <string name="ungviendatuchoi">Danh sách ứng viên đã từ chối</string>
+    <string name="ungviendagioithieuviec">Danh sách ứng viên đã giới thiệu việc</string>
+    <string name="danhsachcongviec">Danh sách công việc</string>
+    <string name="contest">Mạng săn nhân sự</string>
+    <string name="uv_msns">Ứng viên mạng săn nhân sự</string>
+    <string name="gioithieuchuongtrinh">Chương trình giới thiệu</string>
+    <string name="thongtincongty">Thông tin công ty</string>
+    <string name="cauhinh">Cấu hình</string>
+    <string name="hotrotructuyen">Hỗ trợ trực truyến</string>
+    <string name="guithugopy">Gửi thư góp ý</string>
+    <string name="quyenriengtu">Quyền riêng tư</string>
+    <string name="trogiup">Trợ giúp</string>
+    <string name="thongtin">Thông tin</string>
+    <string name="tintuc">Tin tức</string>
+    <string name="thongtinapp">Thông tin về ứng dụng</string>
+    <string name="chiaseungdung">Chia sẻ JobsGO với những người bạn</string>
+    <string name="ungvienmoiphongvan2">DS ứng viên đã chọn</string>
+    <string name="tunghoc">Từng học:</string>
+    <string name="tai">tại:</string>
+    <string name="danghoc">Đang học:</string>
+    <string name="danglam">Đang làm:</string>
+    <string name="tunglam">Từng làm:</string>
+    <string name="trieuVND">triệu VNĐ</string>
+    <string name="congviec">Công việc:</string>
+    <string name="error">Xảy ra lỗi</string>
+
+
+</resources>

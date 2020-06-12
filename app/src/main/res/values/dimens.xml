@@ -1,0 +1,42 @@
+<resources>
+<!-- Default screen margins, per the Android Design guidelines. -->
+<dimen name="activity_horizontal_margin">16dp</dimen>
+<dimen name="activity_vertical_margin">16dp</dimen>
+<dimen name="space_5dp">5dp</dimen>
+<dimen name="space_10dp">10dp</dimen>
+<dimen name="space_20dp">20dp</dimen>
+<dimen name="space_30dp">30dp</dimen>
+<dimen name="space_40dp">40dp</dimen>
+<dimen name="space_50dp">50dp</dimen>
+
+<dimen name="detail_item_margin">6dp</dimen>
+<dimen name="vertical_margin">10dp</dimen>
+
+<dimen name="home_card_marginSide">14dp</dimen>
+<dimen name="home_card_content_padding">8dp</dimen>
+
+<dimen name="home_card_avatar">20dp</dimen>
+<dimen name="home_card_name_text_1">12sp</dimen>
+<dimen name="home_card_name_text_2">10sp</dimen>
+<dimen name="home_card_name_text_3">9sp</dimen>
+
+<integer name="home_card_desc_text_line">2</integer>
+
+<dimen name="home_menu_item_img_padding">2dp</dimen>
+<dimen name="home_menu_item_text_margin">8dp</dimen>
+
+<dimen name="login_text_slide_size">15sp</dimen>
+<dimen name="login_text_dangky_size">12sp</dimen>
+<dimen name="login_text_service_size">10sp</dimen>
+<dimen name="image_size">200dp</dimen>
+<item name="login_height_p1" format="float" type="dimen">0.7</item>
+<item name="login_height_p2" format="float" type="dimen">0.3</item>
+
+<dimen name="simpletooltip_max_width">150dp</dimen>
+<dimen name="simpletooltip_overlay_offset">10dp</dimen>
+<dimen name="simpletooltip_margin">2dp</dimen>
+<dimen name="simpletooltip_padding">8dp</dimen>
+<dimen name="simpletooltip_arrow_width">20dp</dimen>
+<dimen name="simpletooltip_arrow_height">10dp</dimen>
+<dimen name="simpletooltip_animation_padding">4dp</dimen>
+</resources>

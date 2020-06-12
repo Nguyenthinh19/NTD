@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#1e8bc3"
+    tools:context=".login.fragments.LoginSuccessView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="JobsGo"
+                android:textColor="@android:color/white"
+                android:textSize="28sp"
+                android:textStyle="bold|italic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/login_success_avatar"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginTop="50dp"
+                android:src="@android:color/white"
+                app:civ_border_color="@color/colorPrimary"
+                app:civ_border_width="1dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/bg_login_success_edit">
+
+                <TextView
+                    android:id="@+id/login_success_txtName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/space_50dp"
+                    android:layout_marginRight="@dimen/space_20dp"
+                    android:layout_marginTop="@dimen/space_10dp"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/login_success_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/login_success_txtName"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/space_10dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+
+                <ImageButton
+                    android:id="@+id/login_success_btnedit"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="@dimen/space_10dp"
+                    android:layout_toRightOf="@id/login_success_txtName"
+                    android:background="@null"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_edit_circle"
+                    android:layout_marginRight="@dimen/space_10dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Đăng nhập thành công!"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/login_btnKhampha"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_khamphangay"
+                android:text="Khám phá ngay"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

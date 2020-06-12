@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e8bc3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/login_id_header1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_hope_white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/login_id_header2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JobsGo"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5.5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_login_id"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/loginid_formedid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp">
+
+                    <ImageView
+                        android:id="@+id/loginid_imgUser"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentLeft="true"
+                        android:background="@android:color/white"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_user"/>
+                     <EditText
+                         android:id="@+id/loginid_edtUser"
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:layout_toRightOf="@+id/loginid_imgUser"
+                         android:background="@android:color/white"
+                         android:fontFamily="sans-serif-light"
+                         android:hint="@string/tentaikhoan"
+                         android:imeOptions="actionNext"
+                         android:inputType="text"
+                         android:lines="1"
+                         android:maxLines="1"
+                         android:padding="5dp"
+                         android:textColor="#444444"
+                         android:textCursorDrawable="@drawable/black_cursor"
+                         android:textSize="16sp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentTop="true"
+                        android:src="#b7b7b7" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:src="#b7b7b7" />
+
+                    <ImageView
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:src="#b7b7b7" />
+
+                    <ImageView
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:src="#b7b7b7" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:id="@+id/loginid_imgPas"
+                        android:layout_width="@dimen/space_50dp"
+                        android:layout_height="@dimen/space_50dp"
+                        android:layout_alignParentLeft="true"
+                        android:background="@android:color/white"
+                        android:padding="@dimen/space_5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_pass" />
+
+                    <EditText
+                        android:id="@+id/loginid_edtPass"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toRightOf="@id/loginid_imgPas"
+                        android:background="@android:color/white"
+                        android:cursorVisible="true"
+                        android:fontFamily="sans-serif-light"
+                        android:hint="@string/matkhautruycap"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:textColor="#444444"
+                        android:textCursorDrawable="@drawable/black_cursor"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:src="#b7b7b7" />
+
+                    <ImageView
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:src="#b7b7b7" />
+
+                    <ImageView
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:src="#b7b7b7" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="@string/ghinhotaikhoan"
+                        android:textColor="@android:color/black"
+                        android:textSize="12sp"
+                        android:id="@+id/loginid_checkghinho"/>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/space_10dp">
+
+                <ProgressBar
+                    android:id="@+id/loginId_progressbar"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true" />
+
+                <Button
+                    android:id="@+id/loginID_btnDangnhap"
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/my_button_radius"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/dongy"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/login_id_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

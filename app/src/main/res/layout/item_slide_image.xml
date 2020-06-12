@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_blue"
+    android:layout_marginBottom="20dp">
+
+    <ImageView
+        android:id="@+id/image_display"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_centerInParent="true"
+        android:padding="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/slide_login_four" />
+
+    <TextView
+        android:id="@+id/image_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_display"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/slide_titile_1"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/login_text_slide_size" />
+</RelativeLayout>
