@@ -143,7 +143,6 @@ public class CandidateInviteInterviewActivity extends BaseActivity implements Ca
                 Calendar calendar = displayFormat.getCalendar();
                 String date = String.format("%d-%02d-%02d", calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
 
-
             }
         } catch (Exception e) {
 
@@ -258,4 +257,5 @@ public class CandidateInviteInterviewActivity extends BaseActivity implements Ca
     public void onSendNotification() {
 
     }
+
 }

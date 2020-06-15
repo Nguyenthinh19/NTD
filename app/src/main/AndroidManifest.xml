@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".candidateinviteinterview.CandidateInviteInterviewActivity"></activity>
+        <activity android:name=".lovecandidate.LoveCandidateActivity"></activity>
+        <activity android:name=".candidateinviteinterview.CandidateInviteInterviewActivity" />
         <activity android:name=".candidatesavejob.CandidateSaveJobActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".login.activities.LoginEditAcitvity" />

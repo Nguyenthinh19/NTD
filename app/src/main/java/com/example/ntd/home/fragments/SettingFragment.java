@@ -15,6 +15,7 @@ import com.example.ntd.R;
 import com.example.ntd.candidateinviteinterview.CandidateInviteInterviewActivity;
 import com.example.ntd.candidatesavejob.CandidateSaveJobActivity;
 import com.example.ntd.login.activities.LoginActivity;
+import com.example.ntd.lovecandidate.LoveCandidateActivity;
 import com.example.ntd.objects.User;
 
 import at.markushi.ui.CircleButton;
@@ -33,13 +34,13 @@ public class SettingFragment extends Fragment {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_setting,container,false);
         user = User.getLocalUser(getContext());
-        stUVdaluuCV = (FrameLayout) view.findViewById(R.id.setting_ungviendaluu);
+        stUVdaluu = (FrameLayout) view.findViewById(R.id.setting_ungviendaluu);
         btnLogout = (CircleButton) view.findViewById(R.id.setting_login_btnLogout);
         stMoiPhongvan = (FrameLayout) view.findViewById(R.id.setting_damoiphongvan);
-        stUVdaluuCV.setOnClickListener(new View.OnClickListener() {
+        stUVdaluu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), CandidateSaveJobActivity.class);
+                Intent intent = new Intent(getContext(), LoveCandidateActivity.class);
                 startActivity(intent);
             }
         });

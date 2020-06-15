@@ -5,6 +5,7 @@ package com.example.ntd.objects;
  */
 
 public class JobCandidateSaveJob {
+
     private String job_title;
     private String job_id;
 
@@ -23,5 +24,6 @@ public class JobCandidateSaveJob {
     public void setJob_id(String job_id) {
         this.job_id = job_id;
     }
+
 }
 
