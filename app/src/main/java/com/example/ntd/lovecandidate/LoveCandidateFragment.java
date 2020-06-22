@@ -83,8 +83,5 @@ public class LoveCandidateFragment extends Fragment {
         }
     }
 
-    private void hideEditText() {
-        title.setVisibility(View.VISIBLE);
-        btnBack.setVisibility(View.VISIBLE);
-    }
+
 }

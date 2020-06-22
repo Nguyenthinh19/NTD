@@ -34,6 +34,7 @@ public class LoveCandidateModel implements LoveCandidateInterface.Datasource {
 
         void Error();
     }
+
     @Override
     public void setListLoveCandidate(ArrayList<Candidate> list) {
         this.mListLove = list;

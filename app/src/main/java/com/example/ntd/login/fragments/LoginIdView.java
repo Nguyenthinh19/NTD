@@ -102,7 +102,7 @@ public class LoginIdView extends Fragment {
     }
 
     public void loadView() {
-        toolbar.setNavigationIcon(R.drawable.ic_action_navigation_arrow_back);
+        toolbar.setNavigationIcon(R.drawable.ic_arrow_white_black_24dp);
         if (datasource.getCheckSave() == true){
             checkBox.setChecked(true);
             edtUser.setText(datasource.getUserName());

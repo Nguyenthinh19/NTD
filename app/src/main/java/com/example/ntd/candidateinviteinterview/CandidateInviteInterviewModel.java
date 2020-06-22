@@ -126,6 +126,7 @@ public class CandidateInviteInterviewModel implements CandidateInviteInterviewIn
     public ArrayList<CandidateInviteInterviewObj> getListFilter() {
         return mListFilter;
     }
+
     public void loadDSMoiPhongvan(final Context context, final onExcuteFinish finish) {
         mListCandidate = new ArrayList<>();
         class HopeRequest2  extends AsyncTask {
