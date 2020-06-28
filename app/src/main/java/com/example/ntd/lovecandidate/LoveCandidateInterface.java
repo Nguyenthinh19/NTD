@@ -38,7 +38,9 @@ public class LoveCandidateInterface {
 
         void onButtonSendClick();
     }
+
     public interface Datasource{
+
         void setListLoveCandidate(ArrayList<Candidate> list);
 
         ArrayList<Candidate> getListLoveCandidate();

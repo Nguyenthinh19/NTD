@@ -136,4 +136,5 @@ public class LoveCandidateActivity extends BaseActivity implements LoveCandidate
     public void onButtonSendClick() {
 
     }
+
 }

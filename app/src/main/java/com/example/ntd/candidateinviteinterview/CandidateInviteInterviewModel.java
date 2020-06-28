@@ -184,12 +184,9 @@ public class CandidateInviteInterviewModel implements CandidateInviteInterviewIn
                 try{
                     Boolean b = (Boolean)o;
                     if (b.equals(Boolean.TRUE)) {
-                        try {
-                            setIsLoading(false);
-                            finish.onSuccess();
-                        } catch (Exception e) {
-                            e.printStackTrace();
-                        }
+
+                        finish.onSuccess();
+
                         return;
                     }else if(b.equals(Boolean.FALSE)){
                         //trường hợp api yêu cầu login lại
@@ -199,20 +196,15 @@ public class CandidateInviteInterviewModel implements CandidateInviteInterviewIn
                 }catch (Exception e){
                     e.printStackTrace();
                 }
-                try {
-                    setIsLoading(false);
-                    finish.onError();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                finish.onError();
             }
         }
         new HopeRequest2().execute();
     }
     public interface onExcuteFinish {
         void onSuccess();
+
         void onError();
     }
-
 
 }
